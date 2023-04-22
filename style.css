@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #42C2FF;
+    font-family: 'Schibsted Grotesk','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+
+}
+
+.navbar a{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+
+.navbar a:hover{
+    background-color: #EFFFFD;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #85F4FF;
+    margin: 20px 10px;
+    border-radius: 50px;
+}
+
+.search{
+margin-right: 20px;
+border-radius: 15px;
+border: 3px solid rgb(18, 18, 18);
+height: 20px;
+padding: 10px;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline;
+    margin: 1rem;
+}
+
+
+.dp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dp h1{
+    display: inline;
+    color: black;
+}
+
+.navbar div img{
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+}
+
+
+@media (max-width:1000px){
+    body{
+        background-color: yellow;
+    }
+    .search{
+        display: none;
+    }
+    .navbar ul li{
+        margin: 5px;
+    }
+}
+
+@media (max-width:800px){
+    .navbar ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #front h1{
+    font-size: 250px;
+    padding-left: 20px;
+} */
