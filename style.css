@@ -86,9 +86,9 @@ padding: 10px;
 
 
 hr{
-    width: 10%;
+    width: 20%;
     margin: 5px auto;
-    border: 20px dotted #B8FFF9;
+    border: 15px dotted #B8FFF9;
     border-bottom: 0px;
 }
 
@@ -143,6 +143,7 @@ hr{
 }
 
 #footer div a{
+    color: white;
     text-decoration: none;
     font-size: 20px;
     margin: 3px;
